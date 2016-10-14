@@ -529,3 +529,96 @@ p {
   font-size: 10px;
   color: #646;
 }
+article a{
+	text-align:left;
+}
+#Leer_mas{
+	background-color: #333333;
+	text-decoration: none;
+	color: white;	
+	padding: 2px;
+	margin-left: -630px;
+	margin-top: -35px;
+	margin-bottom: 5px;
+}
+#Leer_mas:hover{
+	background-color: #808080;
+}
+#Lecturas h5{
+	text-align:left;
+	margin-left: 10px;
+	}
+#Lecturas p{
+	margin-top: -15px;
+}
+/*ventana modal para la primer lectura*/
+.Abrir_Lectura {
+  position: fixed;
+  font-family: Arial, Helvetica, sans-serif;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0);
+  z-index: 99999;
+  -moz-transition: all 2s ease-out;
+  -webkit-transition: all 2s ease-out;
+  -o-transition: all 2s ease-out;
+  transition: all 2s ease-out;
+  -webkit-transition-delay: 0.2s;
+  -moz-transition-delay: 0.2s;
+  -o-transition-delay: 0.2s;
+  -transition-delay: 0.2s;
+  display: block;
+  pointer-events: none;
+}
+.Abrir_Lectura .dialog {
+  width: 770px;
+  position: relative;
+  top: -2000px;
+  margin: 10% auto;
+  padding: 5px 20px 13px 20px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: #ffffff;
+  background: -moz-linear-gradient(#ffffff, #cccccc);
+  background: -webkit-linear-gradient(#ffffff, #cccccc);
+  background: -o-linear-gradient(#ffffff, #cccccc);
+  box-shadow: 0 0 10px #000000;
+  -moz-box-shadow: 0 0 10px #000000;
+  -webkit-box-shadow: 0 0 10px #000000;
+
+}
+.Abrir_Lectura .dialog .ie7 {
+  filter: progid:DXImageTransform.Microsoft.Shadow(color='#000000', Direction=135, Strength=3);
+}
+.Abrir_Lectura:target {
+  display: block;
+  pointer-events: auto;
+  background: rgba(4, 10, 30, 0.8);
+  -moz-transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.Abrir_Lectura:target .dialog {
+  top: -20px;
+  -moz-transition: all 0.8s ease-out;
+  -webkit-transition: all 0.8s ease-out;
+  -o-transition: all 0.8s ease-out;
+  transition: all 0.8s ease-out;
+  -webkit-transition-delay: 0.4s;
+  -moz-transition-delay: 0.4s;
+  -o-transition-delay: 0.4s;
+  -transition-delay: 0.4s;
+ 
+}
+.Abrir_Lectura  iframe{
+	text-align:justify;
+	border-style: none;
+	width: 100%;
+	height: 850px; 
+}
