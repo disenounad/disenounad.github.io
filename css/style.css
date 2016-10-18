@@ -332,9 +332,13 @@ padding-top: 4px;
 	padding: 13px;
 	background: #003f5e;
 	margin: 3px;
+	color: white;
 	border-radius: 7px;
 	box-shadow: inset 0px 0px 10px white;
 	margin-top: 7px;
+}
+.menu li:hover{
+color: #FF6600;
 }
 .submenu ul{
 margin: auto;
@@ -344,6 +348,7 @@ background-color: none;
 .submenu li{
 	position: relative;
 	float: left;
+	color: white;
 	list-style-type: none;
 	background: #003f5e;
 	border-style: none;
@@ -351,7 +356,10 @@ background-color: none;
 	margin-top: -3px;
 	
 }
-ul, ol {
+.submenu a{
+	color: white;
+}
+.menu ul, ol {
 				
 		}
 			
@@ -371,6 +379,7 @@ ul, ol {
 				display:block;
 				margin-left: -55px;
 				margin-top: 29px;
+				color: #FF6600;
 			}
 			
 			nav li ul li {
