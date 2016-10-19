@@ -455,6 +455,7 @@ color: #FF6600;
 margin: auto;
 padding-top: 0px;
 background-color: none;
+z-index: 999;
 }
 .submenu li{
 	position: relative;
@@ -465,7 +466,7 @@ background-color: none;
 	border-style: none;
 	width: 100%;
 	margin-top: -3px;
-	
+	z-index: 999;
 }
 .submenu a{
 	color: white;
